@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "entrenado_con": "train + val (25 motos)",
+  "evaluado_en": "test (5 motos)",
+  "umbrales": {
+    "precaucion": 70.0,
+    "critico": 90.0
+  },
+  "nota": "Etiquetas sintéticas: las métricas miden el ajuste al generador, no a motos reales.",
+  "aceite": {
+    "modelo": "HistGradientBoostingRegressor",
+    "variables": [
+      "h_desde_cambio_aceite",
+      "frio_por_h",
+      "temp_aceite_media_desde_cambio",
+      "min_sobre_umbral_aceite",
+      "temp_aceite_media",
+      "temp_aceite_max",
+      "temp_aceite_p95",
+      "temp_cabeza_media",
+      "delta_cabeza_aceite",
+      "vib_rms_rel",
+      "arranque_frio"
+    ],
+    "metricas_prueba": {
+      "RMSE": 7.17,
+      "MAE": 5.0,
+      "F1_macro": 0.722,
+      "F1_por_nivel": {
+        "normal": 0.945,
+        "precaucion": 0.643,
+        "critico": 0.578
+      }
+    }
+  },
+  "pastillas": {
+    "modelo": "Ridge sobre horas y frenado",
+    "variables": [
+      "h_p",
+      "h2_p",
+      "h_x_decel",
+      "h2_x_decel"
+    ],
+    "metricas_prueba": {
+      "RMSE": 9.63,
+      "MAE": 7.51,
+      "F1_macro": 0.724,
+      "F1_por_nivel": {
+        "normal": 0.902,
+        "precaucion": 0.557,
+        "critico": 0.714
+      }
+    }
+  }
+}

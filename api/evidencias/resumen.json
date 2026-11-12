@@ -1,0 +1,38 @@
+{
+  "ventanas_por_split": {
+    "train": 29425,
+    "test": 8283,
+    "val": 6267
+  },
+  "motos_por_split": {
+    "test": 5,
+    "train": 21,
+    "val": 4
+  },
+  "ventanas_prueba_por_nivel": {
+    "aceite": {
+      "Normal": 6310,
+      "Precaución": 1443,
+      "Crítico": 530
+    },
+    "pastillas": {
+      "Normal": 5641,
+      "Precaución": 1803,
+      "Crítico": 839
+    }
+  },
+  "moto_de_la_serie": "M001",
+  "importancia_aceite_MAE": {
+    "h_desde_cambio_aceite": 27.68,
+    "frio_por_h": 0.32,
+    "temp_aceite_media_desde_cambio": 8.0,
+    "min_sobre_umbral_aceite": 0.24,
+    "temp_aceite_media": -0.0,
+    "temp_aceite_max": 0.01,
+    "temp_aceite_p95": 0.0,
+    "temp_cabeza_media": -0.03,
+    "delta_cabeza_aceite": -0.07,
+    "vib_rms_rel": 0.05,
+    "arranque_frio": -0.0
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "ventana_id": "M019-W27083",
+    "moto_id": "M019",
+    "nivel_real_aceite": "Normal",
+    "desgaste_real": {
+      "aceite": 9.36,
+      "pastillas": 26.83
+    },
+    "desgaste_estimado_offline": {
+      "aceite": 7.37,
+      "pastillas": 34.28
+    },
+    "cuerpo_para_predict": {
+      "h_desde_cambio_aceite": 7.75,
+      "arranques_frio_desde_cambio": 5,
+      "temp_aceite_media_desde_cambio": 86.034,
+      "min_sobre_umbral_aceite": 0.0,
+      "temp_aceite_media": 91.638,
+      "temp_aceite_max": 96.018,
+      "temp_aceite_p95": 94.763,
+      "temp_cabeza_media": 126.836,
+      "delta_cabeza_aceite": 35.198,
+      "vib_rms_rel": 0.879,
+      "arranque_frio": 0,
+      "h_desde_cambio_pastillas": 102.0,
+      "decel_acum_pastillas": 8306.496,
+      "n_bruscas_acum_pastillas": 6523,
+      "n_frenadas_acum_pastillas": 29636
+    }
+  },
+  {
+    "ventana_id": "M019-W27021",
+    "moto_id": "M019",
+    "nivel_real_aceite": "Precaución",
+    "desgaste_real": {
+      "aceite": 85.18,
+      "pastillas": 23.0
+    },
+    "desgaste_estimado_offline": {
+      "aceite": 92.24,
+      "pastillas": 29.41
+    },
+    "cuerpo_para_predict": {
+      "h_desde_cambio_aceite": 81.5,
+      "arranques_frio_desde_cambio": 60,
+      "temp_aceite_media_desde_cambio": 85.154,
+      "min_sobre_umbral_aceite": 0.0,
+      "temp_aceite_media": 79.166,
+      "temp_aceite_max": 89.683,
+      "temp_aceite_p95": 87.783,
+      "temp_cabeza_media": 119.805,
+      "delta_cabeza_aceite": 40.639,
+      "vib_rms_rel": 1.09,
+      "arranque_frio": 0,
+      "h_desde_cambio_pastillas": 86.5,
+      "decel_acum_pastillas": 7112.536,
+      "n_bruscas_acum_pastillas": 5609,
+      "n_frenadas_acum_pastillas": 25332
+    }
+  },
+  {
+    "ventana_id": "M019-W26685",
+    "moto_id": "M019",
+    "nivel_real_aceite": "Crítico",
+    "desgaste_real": {
+      "aceite": 100.0,
+      "pastillas": 0.84
+    },
+    "desgaste_estimado_offline": {
+      "aceite": 93.65,
+      "pastillas": 0.0
+    },
+    "cuerpo_para_predict": {
+      "h_desde_cambio_aceite": 102.0,
+      "arranques_frio_desde_cambio": 94,
+      "temp_aceite_media_desde_cambio": 85.008,
+      "min_sobre_umbral_aceite": 4.0,
+      "temp_aceite_media": 92.007,
+      "temp_aceite_max": 94.728,
+      "temp_aceite_p95": 93.896,
+      "temp_cabeza_media": 126.796,
+      "delta_cabeza_aceite": 34.789,
+      "vib_rms_rel": 1.068,
+      "arranque_frio": 0,
+      "h_desde_cambio_pastillas": 2.5,
+      "decel_acum_pastillas": 254.618,
+      "n_bruscas_acum_pastillas": 226,
+      "n_frenadas_acum_pastillas": 889
+    }
+  }
+]
