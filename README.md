@@ -76,14 +76,6 @@ Abre http://127.0.0.1:8000, crea tu cuenta, registra una moto y pulsa **Simular*
 
 La documentación de la API queda en http://127.0.0.1:8001/docs.
 
-## Pruebas
-
-```bash
-cd api
-pip install -r requirements-dev.txt
-python -m pytest
-```
-
 ## Problemas frecuentes
 
 | Mensaje | Solución |
