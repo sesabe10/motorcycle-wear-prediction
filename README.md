@@ -32,7 +32,10 @@ La base de datos ya está en Supabase y el proyecto ya está configurado. Solo h
 
 ## Instalación
 
-Se hace una sola vez.
+**Clonar repositorio:**
+```bash
+git clone https://github.com/sesabe10/motorcycle-wear-prediction.git
+```
 
 **API:**
 
