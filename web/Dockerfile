@@ -14,7 +14,9 @@ COPY composer.json composer.lock ./
 RUN composer install --no-dev --no-scripts --no-autoloader --no-interaction --prefer-dist
 
 COPY . .
-RUN composer dump-autoload --optimize --no-dev \
+RUN test -f docker/iniciar.sh || (echo "FALTA docker/iniciar.sh en el repositorio" && exit 1)
+RUN mkdir -p storage/logs storage/framework/cache/data storage/framework/sessions storage/framework/views bootstrap/cache \
+ && composer dump-autoload --optimize --no-dev \
  && sed -i 's/\r$//' docker/iniciar.sh \
  && chmod -R ug+rw storage bootstrap/cache
 
