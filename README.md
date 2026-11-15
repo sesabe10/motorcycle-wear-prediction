@@ -42,7 +42,7 @@ git clone https://github.com/sesabe10/motorcycle-wear-prediction.git
 ```bash
 cd api
 python -m venv .venv
-.venv\Scripts\activate            # En macOS o Linux: source .venv/bin/activate
+.venv\Scripts\activate            
 pip install -r requirements.txt
 ```
 
